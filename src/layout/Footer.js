@@ -172,59 +172,61 @@ const DefaultFooter = () => (
 );
 
 const Footer2 = () => (
-  <footer className="footer-two text-white p-r z-1">
+  <footer className="footer-default footer-dark text-white p-r z-1">
     <div className="shape shape-one">
       <span />
     </div>
     <div className="shape shape-two">
-      <span />
-    </div>
-    <div className="shape shape-three">
-      <span />
-    </div>
-    <div className="shape shape-four">
-      <span />
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          width="650px"
+          height="242px"
+        >
+          <path
+            fillRule="evenodd"
+            opacity="0.02"
+            fill="rgb(255, 255, 255)"
+            d="M0.521,241.495 L246.454,37.867 L473.773,151.244 L649.198,0.638 L649.198,241.495 L0.521,241.495 Z"
+          />
+        </svg>
+      </span>
     </div>
     <div className="container">
       {/*=== Footer Widget ===*/}
       <div className="footer-widget-wrapper pt-80 pb-35">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="footer-widget about-company-widget-two mb-40 wow fadeInUp">
+          <div className="col-lg-4 col-md-8 col-sm-16">
+            <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
+              <div className="footer-widget-logo">
+                <Link legacyBehavior href="/">
+                  <a>
+                    <img src="assets/images/logo/footer-logo-1.png" alt="" />
+                  </a>
+                </Link>
+              </div>
               <div className="footer-content">
-                <div className="footer-logo">
-                  <Link legacyBehavior href="/">
-                    <a>
-                      <img
-                        src="assets/images/logo/footer-logo-2.png"
-                        alt="Footer Logo"
-                      />
-                    </a>
-                  </Link>
-                </div>
                 <p>
-                  On the other hand we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire
+                  We are a leading law firm in Tanzania aimed at transforming
+                  the dynamics of legal services by providing proactive,
+                  accessible, innovative, efficient, ethical and reliable
+                  solutions on matters of corporate law and legal advice.
                 </p>
                 <ul className="social-link">
                   <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
+                    <a href="https://linkedin.com/company/extent-corporate-advisory/">
+                      <i className="fab fa-linkedin" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://twitter.com/advisoryextent">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
+
                   <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
+                    <a href="https://instagram.com/extentcorporate">
                       <i className="fab fa-instagram" />
                     </a>
                   </li>
@@ -232,52 +234,45 @@ const Footer2 = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-8 col-sm-16">
             <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
-              <h4 className="widget-title">Services</h4>
+              <h4 className="widget-title"> Our Services</h4>
               <div className="footer-content">
                 <ul className="widget-nav">
                   <li>
-                    <a href="#">Business Consulting</a>
+                    <a href="#">Corporate Advisory</a>
                   </li>
                   <li>
-                    <a href="#">Financial Investment</a>
+                    <a href="#">Intellectual Property & E-Commerce</a>
                   </li>
                   <li>
-                    <a href="#">Corporate Business</a>
+                    <a href="#">Tax Compliance</a>
                   </li>
                   <li>
-                    <a href="#">IT Consulting</a>
+                    <a href="#">Energy and Mining</a>
                   </li>
                   <li>
-                    <a href="#">Web Strategy</a>
-                  </li>
-                  <li>
-                    <a href="#">Business Development</a>
+                    <a href="#">Capital Markets and Securities</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-8 col-sm-16">
             <div className="footer-widget contact-info-widget mb-40 wow fadeInUp">
               <div className="footer-content">
-                <h5 className="title">Main Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt" />
-                  </div>
-                  <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
-                  </div>
-                </div>
-                <h5 className="title">Branch Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt" />
-                  </div>
-                  <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                <h5 className="title">Head Office</h5>
+                <div className="contact-info-box d-flex mb-4">
+                  <div className="footer-content">
+                    <p>
+                      Extent Corporate Advisory (ECA),
+                      <br />
+                      7th Floor Tanzanite Park,
+                      <br />
+                      Victoria Area, New Bagamoyo Road,
+                      <br />
+                      P.O. Box 75211, Dar es Salaam - Tanzania.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -288,9 +283,39 @@ const Footer2 = () => (
       {/*=== Footer Copyright ===*/}
       <div className="footer-copyright border-top-white-op-1">
         <div className="row">
-          <div className="col-lg-12">
-            <div className="footer-text text-center">
-              <p>Copy@ 2022 Fintex. All Rights reserved by Webtend</p>
+          <div className="col-lg-8">
+            <div className="footer-nav wow fadeInLeft">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Expertise</a>
+                </li>
+                <li>
+                  <a href="#">Publications</a>
+                </li>
+                <li>
+                  <a href="#">Resources</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="footer-text float-lg-right wow fadeInRight">
+              <p>
+                &copy; <span>{new Date().getFullYear()} </span>
+                <span>&nbsp;Extent Corporate Advisory</span>
+              </p>
             </div>
           </div>
         </div>

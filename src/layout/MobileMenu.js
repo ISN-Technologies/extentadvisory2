@@ -18,17 +18,27 @@ const MobileMenu = () => {
           <li className="menu-item has-children">
             <a href="#">Home</a>
             <ul className="sub-menu" style={activeLi("home")}>
-              <li className="has-children">
+              <li>
+                <Link legacyBehavior href="/">
+                  Site 1
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="index-2">
+                  Site 2
+                </Link>
+              </li>
+              {/* <li className="has-children">
                 <a href="#">Multipage</a>
                 <ul className="sub-menu" style={multiMenuActiveLi("multiPage")}>
                   <li>
                     <Link legacyBehavior href="/">
-                      Business Consultant
+                      Site 1
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="index-2">
-                      Investment Solutions
+                      Site 2
                     </Link>
                   </li>
                   <li>
@@ -89,7 +99,7 @@ const MobileMenu = () => {
                 >
                   <i className="far fa-angle-down" />
                 </span>
-              </li>
+              </li> */}
             </ul>
             <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
               <i className="far fa-angle-down" />

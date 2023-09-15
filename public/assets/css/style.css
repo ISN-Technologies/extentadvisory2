@@ -3866,7 +3866,7 @@ button {
 }
 
 .fact-section-two {
-  background-color: #181c22;
+  background-color: #EBD409;
   padding-left: 70px;
 }
 @media (max-width: 1199px) {
@@ -4842,7 +4842,7 @@ button {
   top: 0;
   width: 400px;
   height: 100%;
-  background-color: #181c22;
+  background-color: #EBD409;
   z-index: -1;
 }
 @media (max-width: 1199px) {
@@ -4997,7 +4997,7 @@ button {
 }
 
 .cta-section-two {
-  background-color: #181c22;
+  background-color: #EBD409;
   padding-left: 90px;
   position: relative;
   z-index: 1;
@@ -5024,7 +5024,7 @@ button {
   font-weight: 300;
 }
 .cta-section-two .section-title h2 span {
-  color: #1e2859;
+  color: #EBD409;
   font-weight: 800;
 }
 
@@ -6854,7 +6854,7 @@ ul.rating li {
   transform: rotate(90deg) translateY(-50%);
 }
 .testimonial-wrapper-two.dark-black-bg {
-  background-color: #181c22;
+  background-color: #EBD409;
 }
 .testimonial-wrapper-two.dark-black-bg .testimonial-item-two .quote i {
   color: #1e2859;
@@ -8390,7 +8390,7 @@ ul.rating li {
 }
 
 .footer-two {
-  background-color: #181c22;
+  background-color: #EBD409;
   overflow: hidden;
   position: relative;
   z-index: 1;

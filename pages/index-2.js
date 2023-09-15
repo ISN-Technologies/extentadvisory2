@@ -5,6 +5,7 @@ import PartnerSlider2 from "../src/components/PartnerSlider2";
 import ProgressBar from "../src/components/ProgressBar";
 import LatestServices from "../src/components/slider/LatestServices";
 import Layout from "../src/layout/Layout";
+import Newsletter from "../src/components/Newsletter";
 import {
   heroSliderOne,
   projectsSliderTwo,
@@ -353,8 +354,7 @@ const Index = () => {
                 <div className="col-xl-8 col-lg-10">
                   {/*=== Common Heading ===*/}
                   <div className="section-title section-title-white text-center mb-60 wow fadeInDown">
-                    <span className="sub-title">Latest Services</span>
-                    <h2>Amazing Investment Solutions</h2>
+                    <h2>Our Solutions</h2>
                   </div>
                 </div>
               </div>
@@ -388,9 +388,9 @@ const Index = () => {
                   >
                     <div className="text d-flex align-items-center">
                       <h2 className="number">
-                        <span className="count">536</span>+
+                        <span className="count">16</span>+
                       </h2>
-                      <h5>Happy Customers Who Trusted</h5>
+                      <h5>Happy Clients Who Trusted</h5>
                     </div>
                   </div>
                 </div>
@@ -402,9 +402,9 @@ const Index = () => {
                   >
                     <div className="text d-flex align-items-center">
                       <h2 className="number">
-                        <span className="count">963</span>+
+                        <span className="count">3</span>+
                       </h2>
-                      <h5>Awards Innning For Success Projects</h5>
+                      <h5>Awards Won For Success Projects</h5>
                     </div>
                   </div>
                 </div>
@@ -436,17 +436,17 @@ const Index = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="single-skill-item d-flex align-items-center mb-60">
-                        <ProgressBar value={85} color="#0dceb5" />
+                        <ProgressBar value={85} color="#EBD409" />
                         <div className="text">
-                          <h3 className="title">Business Consulting</h3>
+                          <h3 className="title">IP Consulting</h3>
                         </div>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single-skill-item d-flex align-items-center mb-60">
-                        <ProgressBar value={67} color="#0dceb5" />
+                        <ProgressBar value={67} color="#EBD409" />
                         <div className="text">
-                          <h3 className="title">Financial Investment</h3>
+                          <h3 className="title">Corporate Advisory</h3>
                         </div>
                       </div>
                     </div>
@@ -1156,59 +1156,7 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Contact Section ======*/}
-      {/*====== Start Newsletter Section ======*/}
-      <section className="newsletter-section bg-color-two pt-50 pb-45">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-5 col-lg-12">
-              {/*=== Common Heading ===*/}
-              <div className="section-title section-title-white wow fadeInLeft">
-                <h2>Subscribe Our Newsletter to Get More Updates</h2>
-              </div>
-            </div>
-            <div className="col-xl-7 col-lg-12">
-              {/*=== Newsletter Form ===*/}
-              <div className="newsletter-from wow fadeInRight">
-                <form onSubmit={(e) => e.preventDefault()}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-8">
-                      <div className="form_group">
-                        <input
-                          type="email"
-                          className="form_control"
-                          placeholder="Enter Email Address"
-                          name="email"
-                        />
-                        <i className="far fa-envelope" />
-                      </div>
-                      <div className="form_checkbox">
-                        <input
-                          type="checkbox"
-                          name="checkbox"
-                          id="check2"
-                          defaultChecked=""
-                        />
-                        <label htmlFor="check2">
-                          <span>
-                            I agree to the <a href="#"> Privacy Policy</a>.
-                          </span>
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="form-button float-lg-right">
-                        <button className="main-btn btn-red">
-                          Subscribe Now
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Newsletter />
     </Layout>
   );
 };

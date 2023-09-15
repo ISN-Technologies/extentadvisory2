@@ -175,53 +175,44 @@ const DefaultHeader = ({ singleMenus }) => (
 const Header2 = ({ singleMenus }) => (
   <header className="header-area">
     {/*=== Header Top-bar ===*/}
-    <div className="topbar-two">
-      <div className="container-1420">
+    <div className="topbar-one bg-color-one">
+      <div className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-xl-8 col-lg-9">
+          <div className="col-lg-9 col-md-12">
             <div className="top-left">
               <span className="text">
-                <i className="far fa-envelope" /> Email Us :{" "}
-                <span>
-                  <a href="mailto:support@extentcorporate.co.tz">support@gmail.com</a>
+                <i className="far fa-envelope" /> Email Us :
+                <span className="text">
+                  <a href="mailto:info@extentadvisory.co.tz">
+                    info@extentadvisory.co.tz
+                  </a>
                 </span>
               </span>
               <span className="text">
                 <i className="far fa-clock" /> Working Hours :
-                <span>Monday - Friday, 08 am - 05 pm</span>
+                <span className="text">Monday - Friday, 08 am - 05 pm</span>
               </span>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-3">
-            <div className="top-right float-lg-right d-flex align-items-center">
+          <div className="col-lg-3 col-md-12">
+            <div className="top-right float-lg-right">
               <ul className="social-link">
                 <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
+                  <a href="https://linkedin.com/company/extent-corporate-advisory/">
+                    <i className="fab fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://twitter.com/advisoryextent">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-youtube" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://instagram.com/extentcorporate">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>
               </ul>
-              <div className="lang-dropdown">
-                <select className="">
-                  <option value={1}>English</option>
-                  <option value={2}>Russian</option>
-                </select>
-              </div>
             </div>
           </div>
         </div>
@@ -478,17 +469,27 @@ const Menus = () => (
             Home
           </a>
           <ul className="sub-menu">
-            <li className="has-children">
+            <li>
+              <Link legacyBehavior href="/">
+                Site 1
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="index-2">
+                Site 2
+              </Link>
+            </li>
+            {/* <li className="has-children">
               <a href="#">Multipage</a>
               <ul className="sub-menu">
                 <li>
                   <Link legacyBehavior href="/">
-                    Business Consultant
+                    Site 1
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="index-2">
-                    Investment Solutions
+                    Site 2
                   </Link>
                 </li>
                 <li>
@@ -507,8 +508,8 @@ const Menus = () => (
                   </Link>
                 </li>
               </ul>
-            </li>
-            <li className="has-children">
+            </li> */}
+            {/* <li className="has-children">
               <a href="#">One Page</a>
               <ul className="sub-menu">
                 <li>
@@ -537,7 +538,7 @@ const Menus = () => (
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="menu-item">
@@ -546,8 +547,10 @@ const Menus = () => (
           </Link>
         </li>
         <li className="menu-item has-children">
-          <a href="#">Services</a>
-          <ul className="sub-menu">
+          <Link legacyBehavior href="services">
+            Our Services
+          </Link>
+          {/* <ul className="sub-menu">
             <li>
               <Link legacyBehavior href="services">
                 Our Services
@@ -558,11 +561,13 @@ const Menus = () => (
                 Service Details
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
-          <a href="#">Team</a>
-          <ul className="sub-menu">
+          <Link legacyBehavior href="team">
+            Our Team
+          </Link>
+          {/* <ul className="sub-menu">
             <li>
               <Link legacyBehavior href="team">
                 Our Team
@@ -573,11 +578,13 @@ const Menus = () => (
                 Team Details
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
-          <a href="#">Pages</a>
-          <ul className="sub-menu">
+          <Link legacyBehavior href="career">
+            Career
+          </Link>
+          {/* <ul className="sub-menu">
             <li>
               <Link legacyBehavior href="career">
                 Career
@@ -653,11 +660,13 @@ const Menus = () => (
                 </li>
               </ul>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
-          <a href="#">News</a>
-          <ul className="sub-menu">
+          <Link legacyBehavior href="blog-listing">
+            News
+          </Link>
+          {/* <ul className="sub-menu">
             <li>
               <Link legacyBehavior href="blog-listing">
                 Blog Standard
@@ -668,7 +677,7 @@ const Menus = () => (
                 Blog Details
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="contact">
