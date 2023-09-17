@@ -17,6 +17,15 @@ const Newsletter = () => {
                   <div className="col-lg-8">
                     <div className="form_group">
                       <input
+                        type="text"
+                        className="form_control"
+                        placeholder="Enter your Name"
+                        name="name"
+                      />
+                      <i className="far fa-user"/>
+                    </div>
+                    <div className="form_group">
+                      <input
                         type="email"
                         className="form_control"
                         placeholder="Enter Email Address"

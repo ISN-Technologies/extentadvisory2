@@ -10,7 +10,7 @@ const Partner = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/logo-1.png"
+                  src="assets/images/partners/inta.png"
                   alt="Partner Image"
                 />
               </a>
@@ -20,7 +20,7 @@ const Partner = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/logo-2.png"
+                  src="assets/images/partners/aripo.png"
                   alt="Partner Image"
                 />
               </a>
@@ -30,7 +30,7 @@ const Partner = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/logo-3.png"
+                  src="assets/images/partners/aippi.png"
                   alt="Partner Image"
                 />
               </a>
@@ -40,7 +40,7 @@ const Partner = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/logo-4.png"
+                  src="assets/images/partners/eals.png"
                   alt="Partner Image"
                 />
               </a>
@@ -50,7 +50,7 @@ const Partner = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/logo-5.png"
+                  src="assets/images/partners/tls.png"
                   alt="Partner Image"
                 />
               </a>
@@ -60,17 +60,7 @@ const Partner = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/logo-6.png"
-                  alt="Partner Image"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="partner-item">
-            <div className="partner-img">
-              <a href="#">
-                <img
-                  src="assets/images/partners/logo-3.png"
+                  src="assets/images/partners/zls.png"
                   alt="Partner Image"
                 />
               </a>

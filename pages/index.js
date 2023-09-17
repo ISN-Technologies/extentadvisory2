@@ -228,7 +228,7 @@ const Index = () => {
       {/*====== End Service Section ======*/}
       <FactOverview/>
       <ProjectOverview />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <TeamOverview />
       <FeedbackOverview />
       <FAQOverview />
